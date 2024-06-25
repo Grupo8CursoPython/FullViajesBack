@@ -54,6 +54,10 @@ El sitio web se encuentra publicado en Servidor de PythonAnywhere y se puede acc
 
 ![alt text](app/static/assets/fotos_destinos/read01.png)
 
+Anexamos código de la conexión a la BBDD externa:
+
+![alt text](app/static/assets/fotos_destinos/read07.png)
+
 
 
 ### Equipo 8:
