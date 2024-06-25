@@ -1,0 +1,48 @@
+{% extends 'public/layout.html' %}
+{% block title %}Visualizar Destinos{% endblock %}
+
+{% block body %}
+
+
+<section>
+    <h2>
+        <a href="/" class="left" title="Volver"><i class="bi bi-arrow-left-circle"></i></a>
+        Detalles del Destino
+        <hr>
+    </h2>
+
+    {% if (infoDestino) %}
+    
+ 
+    <div class="card" style="width: 25rem;">
+      {% set urlDestino = '/static/assets/fotos_destinos/' %}
+        {% if(infoDestino.foto) %}
+          <img src="{{ urlDestino }}{{ infoDestino.foto }}" class="card-img-top" alt="destino">
+        {% else %}
+          <img src="{{ urlDestino }}sin_foto.jpg" class="card-img-top sin_foto" alt="destino">
+        {% endif %}
+
+        <div class="card-body">
+          <h5 class="card-title"> <strong>{{ infoDestino.titulo }}</strong></h5>
+        </div>
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Descripcion: <strong>{{ infoDestino.descripcion }}</strong></li>
+          <li class="list-group-item">Planes: <strong>{{ infoDestino.plan }}</strong></li>
+          <li class="list-group-item">Precio Full: <strong>{{ infoDestino.preciofull }}</strong></li>
+          <li class="list-group-item">Precio Descuento: <strong>{{ infoDestino.preciodes }}</strong></li>
+          <li class="list-group-item">Favorito: <strong>{{ infoDestino.favorito }}</strong></li>
+        </ul>
+      </div>
+
+      {% else %}
+      <div class="col-12">
+          <h2 class="text-center">
+              No existe el Destino
+          </h2>
+      </div>
+{% endif %}
+
+</section>
+
+{% endblock %}
