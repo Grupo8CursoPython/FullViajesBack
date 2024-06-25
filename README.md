@@ -2,125 +2,57 @@
 
 ![alt text](app/static/assets/fotos_destinos/read00.png)
 
-1.- El sitio web debe poseer al menos 4 páginas HTML o 4 secciones si se trata de un sitio One Page.
+1.- La BBDD debe desarrollarse en lenguaje SQL.
 
-El sitio web desarrollado cuenta con las siguientes páginas:
-- index.html
-- destinos.html
-- ofertas.html
-- contacto.html
-- info-nosotros.html
-- info1.html
-- info2.html
-- info3.html
-- info4.html
+![alt text](app/static/assets/fotos_destinos/read05.png)
+
+BBDD desarrollada el lenguaje SQL y Tabla Destinos creada con script SQL.
 
 
-2.- El sitio web debe incluir un formulario de contacto, con al menos 5
-campos que incluya (un checkbox o radiobutton), un select y una
-imagen, con validación realizada mediante JavaScript para que los
-campos sean obligatorios.
+2.- A través del Front se debe poder realizar al menos un tipo de alta (POST).
 
-![alt text](img/pautas/formulario.png)
+![alt text](app/static/assets/fotos_destinos/read04.png)
 
-
-3.- Tener al menos una página totalmente responsive con mínimo 3
-puntos de corte con media querys para 3 tamaños de dispositivos
-(PC escritorio, Tablet, Celular). Para el diseño debe usarse CSS.
-
-El sitio web desarrollado cuenta con diseño responsivo para cualquier dispositivo.
-
-![alt text](img/pautas/responsivo.png)
-
-De igual forma se incluyó el menú hamburguesa para estilizar mejor el sitio.
+Se puede incluir nuevos registros a traves de peticiones POST desde el Front.
 
 
-4.- Utilizar al menos una animación, transformación o una transición.
+3.- De la misma forma se debe poder realizar modificaciones a los registros.
 
-- Animación de carrusel en la página principal,
-- Animación de imagenes en ofertas.
-- Animación de imagenes en Destinos.
- 
-![alt text](img/pautas/animacion2.png)
+![alt text](app/static/assets/fotos_destinos/read04.png)
 
-![alt text](img/pautas/animacion.png)
-
-![alt text](img/pautas/animacion1.png)
+También Se puede modificar registros a traves de peticiones POST desde el Front.
 
 
-5.- Poseer una estructura HTML maquetada con Flexbox y/o Grid.
+4.- Se debe poder acceder a los registros de la tabla (GET).
 
-Contamos con varias secciones del sitio web configurado con Flex y Grid
-
-.inicio-section {
-  background-image: url(images/hero_image.png);
-  height: 100vh;
-  display: grid;
-  color: white;
-  place-items: center;
-  text-align: center;
-}
-
-.inicio-section .container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  padding: 20px 0;
-}
+![alt text](app/static/assets/fotos_destinos/read02.png)
 
 
-6.- Se considerará la presentación general del proyecto, la
-legibilidad del mismo, la navegación sin llegar a puntos de no
-retorno, la optimización de imagenes para la web y el uso de
-favicon
+5.- Se debe poder realizar borrado físico de los registros (DELETE).
 
-- Colores acordes a imagenes para una comprensión de lectura
-- Link seteados correctamente
-- Imagenes optimizadas en formato PNG.
-- Uso de imagen de Favicon en todas las páginas.
- 
- 
-7.- El trabajo práctico deberá subirse a un servidor online y
-compartirse mediante un repositorio de Git.
+![alt text](app/static/assets/fotos_destinos/read01.png)
+
+En el cuadro de acciones podemos elimiar fisicamente los registros de la tabla.
+
+
+6.- El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de GIT.
 
 El sitio web se encuentra alojado en Github de manera pública, se puede 
-acceder al repositorio en el siguiente link : https://github.com/Grupo8CursoPython/FullViajes
+acceder al repositorio en el siguiente link : https://github.com/Grupo8CursoPython/FullViajesBack
+
+![alt text](app/static/assets/fotos_destinos/read06.png)
 
 
-8.- La página deberá subirse a un servidor on-line para poder
-ser navegada por el Docente. Ejemplo: Netlify o similar.
-(Mandatorio)
+7.- La página deberá subirse a un servidor on-line para poder
+ser navegada por el instructor.
 
-El sitio web se encuentra publicado en Github Page y se puede observar a través
-del siguiente enlace: https://grupo8cursopython.github.io/FullViajes/
+El sitio web se encuentra publicado en Servidor de PythonAnywhere y se puede acceder mediante el siguiente link: https://grupo8cursopython.pythonanywhere.com/
 
 
-9.- El sitio web debe estar estructurado utilizando etiquetas
-semánticas HTML correctamente. Debe pasar la validación
-de https://validator.w3.org/ sin errores. (Mandatorio).
 
-Se sometío el sitio web al validador y estos fueron los resultados:
+8.- El Backend debe estar integrado con un Frontend:
 
-![alt text](img/pautas/validar1.png)
-
-![alt text](img/pautas/validar2.png)
-
-
-10.- Utilizar iframes y/o íconos de FontAwesome y/o fuentes
-locales o bien de Google Fonts.Es optativo incluir algún
-elemento de Bootstrap.
-
-- Se utilizó iframe en la página index.html para mostrar una pantalla de Google Map
-- También se utilizaron fuentes externas de Google Font.
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+![alt text](app/static/assets/fotos_destinos/read01.png)
 
 
 
