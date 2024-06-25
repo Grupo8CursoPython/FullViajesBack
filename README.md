@@ -1,4 +1,4 @@
-# Desafio Frontend (Equipo 8)
+# Desafio Backend (Equipo 8)
 
 ![alt text](app/static/assets/fotos_destinos/read00.png)
 
