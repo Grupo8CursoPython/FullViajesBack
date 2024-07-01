@@ -48,6 +48,7 @@ ser navegada por el instructor.
 
 El sitio web se encuentra publicado en Servidor de PythonAnywhere y se puede acceder mediante el siguiente link: https://grupo8cursopython.pythonanywhere.com/
 
+![alt text](app/static/assets/fotos_destinos/read08.png)
 
 
 8.- El Backend debe estar integrado con un Frontend:
