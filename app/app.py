@@ -137,7 +137,6 @@ def eliminarDestino(idDestino='', nombreFoto=''):
     os.remove(url_File) #Borrar foto desde la carpeta
     #os.unlink(url_File) #Otra forma de borrar archivos en una carpeta
     
-
     return resultado_eliminar
 
 
